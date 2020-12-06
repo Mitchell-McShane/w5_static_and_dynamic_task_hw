@@ -6,8 +6,8 @@ class TestCardGame(unittest.TestCase):
     def setUp(self):
         self.ace = Card('hearts',1)
         self.card2 = Card('hearts', 5)
-        self.card_game = CardGame()
+        self.card_game = CardGame
 
     def test_check_for_ace(self):
-        self.assertTrue(self.card_game(self.ace))
+        self.assertTrue(self.card_game.check_for_ace(self.ace))
         
