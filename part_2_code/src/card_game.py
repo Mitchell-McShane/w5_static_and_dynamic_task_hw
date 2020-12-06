@@ -10,7 +10,7 @@ class CardGame:
   def check_for_ace(self, card):
     if card.value == 1:
       return True
-    else
+    else:
       return False
    
 
