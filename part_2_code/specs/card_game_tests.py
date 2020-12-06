@@ -22,4 +22,4 @@ class TestCardGame(unittest.TestCase):
         self.assertEqual(self.hightest_card.value, 6)
 
     def test_cards_total(self):
-        self.assertEqual(self.card_game.cards_total(self.deck_of_cards),12)
+        self.assertEqual(self.card_game.cards_total(self.deck_of_cards),"You have a total of 12")
