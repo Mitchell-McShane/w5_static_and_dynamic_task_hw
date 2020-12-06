@@ -3,5 +3,4 @@ from src.card import Card
 from src.card_game import CardGame
 
 class TestCardGame:
-    def setUp(self):
         pass
